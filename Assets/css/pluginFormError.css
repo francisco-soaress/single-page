@@ -1,0 +1,20 @@
+.main-error-form h1{
+    font-size: 3.6em;
+    color: #d12121;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 0 20px 0;
+    line-height: 1.1;
+}
+.main-error-form p {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 576px){
+    .main-error-form h1{
+        font-size: 2.4em;
+    }
+}

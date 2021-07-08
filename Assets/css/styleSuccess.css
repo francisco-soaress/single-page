@@ -1,0 +1,24 @@
+.main_success h2{
+    font-size: 2.6em;
+    color: #777;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main_success p {
+    font-size: 1.2em;
+    color: #777;
+    font-weight: 300;
+}
+
+.main_success .main_sucess_alert {
+    font-size: 0.9em;
+    color: #777;
+    font-weight: 300;
+
+    margin-top: 40px;
+}
+.main_success .main_sucess_alert span{
+    color: #d12121;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+.main_contador_data{
+    padding: 40px 0;
+}
+.main_contador_data h3{
+    font-size: 2.6em;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#contador-data{
+    display: block;
+}
+
+.contador-format-txt {
+    display: inline-block;
+    /*background: rgba(0, 0, 0, 0.5);*/
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 15px 10px;
+    margin: 8px;
+
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.contador-data-txt {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.3em;
+}
+
+.contador-dois-ponto {
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    font-weight: 700;
+    top: -25px;
+}
+
+.titulo-contator {
+    font-size: 2em;
+    color: #ccc;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.txt-ultimas-vagas {
+    font-size: 5em;
+    color: #d12121;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #fff;
+    margin-top: 15px;
+}
+
+@media(max-width: 576px){
+    .contador-format-txt {
+        font-size: 2.6em;
+    }
+}

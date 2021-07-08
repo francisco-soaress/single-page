@@ -1,0 +1,28 @@
+{
+    "name": "francisco_assis/single-page",
+    "description": "Criando uma Lead gate com plugins implementados",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Assis",
+            "email": "francisco.sts@hotmail.com",
+            "role": "Developer",
+            "homepage": "https://www.webfr.com.br"
+        }
+    ],    
+    "autoload": {
+        "psr-4": {
+            "Config\\": "Config/"
+        },
+        "files": [
+            "Config/Defines.php",
+            "Config/ConfigEmail.php"
+        ]
+    },
+    "require": {
+        "php": ">= 7.0",
+        "phpmailer/phpmailer": "6.1.7"
+    }
+    
+}

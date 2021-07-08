@@ -1,0 +1,29 @@
+.main-success-form h1{
+    font-size: 3.6em;
+    color: #1bdb14;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 0 20px 0;
+    line-height: 1.1;
+}
+.main-success-form p {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.main-success-form div {
+    font-size: 0.875em;
+    color: #555;
+    font-weight: 300;
+}
+.main-success-form div strong{    
+    color: #d12121;
+    font-weight: bold;
+}
+
+@media(max-width: 576px){
+    .main-success-form h1{
+        font-size: 2.4em;
+    }
+}
